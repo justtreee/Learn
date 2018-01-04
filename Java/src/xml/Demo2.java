@@ -112,4 +112,93 @@ public class Demo2 {
         //succeed
     }
 
+    //向xml指定节点插入
+    @Test
+    public void add2() throws ParserConfigurationException, IOException, SAXException, TransformerException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse("src/xml/book.xml");
+
+        //创建节点
+        Element price = document.createElement("售价");
+        price.setTextContent("59.00元");
+
+        //得到参考节点，也就是11元的那个售价节点
+        Element refNode = (Element) document.getElementsByTagName("售价").item(0);
+
+
+        //得到要插入子节点的节点，也就是<书>节点
+        Element book  =(Element) document.getElementsByTagName("书").item(0);
+
+        //往<书>节点的指定位置插入子节点
+        book.insertBefore(price, refNode);
+
+        // 把更新后的内存写入xml文档
+        TransformerFactory tffactory = TransformerFactory.newInstance();
+        Transformer tf = tffactory.newTransformer();
+        tf.transform(new DOMSource(document), new StreamResult(new FileOutputStream("src/xml/book.xml")));
+        //succeed
+    }
+
+    //向xml中<书名>添加name属性，name=xxx
+    @Test
+    public void addAttr() throws ParserConfigurationException, IOException, SAXException, TransformerException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse("src/xml/book.xml");
+
+        Element book = (Element) document.getElementsByTagName("书名").item(0);
+        book.setAttribute("name","xxx");
+
+        // 把更新后的内存写入xml文档
+        TransformerFactory tffactory = TransformerFactory.newInstance();
+        Transformer tf = tffactory.newTransformer();
+        tf.transform(new DOMSource(document), new StreamResult(new FileOutputStream("src/xml/book.xml")));
+        //succeed
+    }
+
+    //xml删除售价
+    @Test
+    public void delete() throws IOException, SAXException, ParserConfigurationException, TransformerException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse("src/xml/book.xml");
+
+        //得到要删除的售价节点
+        Element e = (Element) document.getElementsByTagName("售价").item(0);
+
+        //得到要删除节点的父节点
+        //Element book = (Element) document.getElementsByTagName("书").item(0);
+        //在父节点下删除子节点
+        //book.removeChild(e);
+        //当然还有更简单的方法：有现成的方法得到要删除节点的父节点并删除子节点
+        e.getParentNode().removeChild(e);
+        //这样的方法还能将该售价节点所在的父节点书给删除
+        //e.getParentNode().getParentNode().removeChild(e.getParentNode());
+
+        //从内存更新到硬盘
+        TransformerFactory tffactory = TransformerFactory.newInstance();
+        Transformer tf = tffactory.newTransformer();
+        tf.transform(new DOMSource(document), new StreamResult(new FileOutputStream("src/xml/book.xml")));
+        //succeed
+    }
+
+    //更新售价
+    @Test
+    public void update() throws ParserConfigurationException, IOException, SAXException, TransformerException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document = builder.parse("src/xml/book.xml");
+
+        //得到要更改的售价节点
+        Element e = (Element) document.getElementsByTagName("售价").item(0);
+        e.setTextContent("119.00元");
+
+        //从内存更新到硬盘
+        TransformerFactory tffactory = TransformerFactory.newInstance();
+        Transformer tf = tffactory.newTransformer();
+        tf.transform(new DOMSource(document), new StreamResult(new FileOutputStream("src/xml/book.xml")));
+
+        //succeed
+    }
 }
