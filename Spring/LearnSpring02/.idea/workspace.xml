@@ -11,79 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestAnno.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/TestAnno.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="365">
-                <caret line="145" column="19" lean-forward="true" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
-                <folding>
-                  <marker date="1519981217228" expanded="true" signature="464:1031" ph="..." />
-                  <marker date="1519981217228" expanded="true" signature="889:930" ph="..." />
-                  <marker date="1519981217228" expanded="false" signature="1209:1219" ph=" { " />
-                  <marker date="1519981217228" expanded="false" signature="1254:1260" ph=" }" />
-                  <marker date="1519981217228" expanded="true" signature="1801:1853" ph="@{...}" />
-                  <marker date="1519981217228" expanded="false" signature="1895:1905" ph=" { " />
-                  <marker date="1519981217228" expanded="false" signature="1940:1946" ph=" }" />
-                  <marker date="1519981217228" expanded="false" signature="2087:2097" ph=" { " />
-                  <marker date="1519981217228" expanded="false" signature="2128:2134" ph=" }" />
-                  <marker date="1519981217228" expanded="true" signature="2361:2436" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,6 +35,11 @@
         <option value="$PROJECT_DIR$/src/com/treee/annotation/TestAnno.java" />
         <option value="$PROJECT_DIR$/src/com/treee/annotation/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/treee/annotation/README.md" />
+        <option value="$PROJECT_DIR$/src/com/treee/aop/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/treee/aop/TestAOP.java" />
+        <option value="$PROJECT_DIR$/src/com/treee/aop/MyBook.java" />
+        <option value="$PROJECT_DIR$/src/aspecjAOP.xml" />
+        <option value="$PROJECT_DIR$/src/com/treee/aop/README.md" />
       </list>
     </option>
   </component>
@@ -137,9 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,7 +86,14 @@
               <item name="LearnSpring02" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnSpring02" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="treee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnSpring02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnSpring02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="treee" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnSpring02" type="b2602c69:ProjectViewProjectNode" />
@@ -173,13 +110,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/jars/aspectjrt-1.8.13.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -198,7 +142,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAnno.testService">
+  <component name="RunManager" selected="JUnit.TestAOP.testAOP">
+    <configuration name="TestAOP.testAOP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.treee.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LearnSpring02" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.treee.aop" />
+      <option name="MAIN_CLASS_NAME" value="com.treee.aop.TestAOP" />
+      <option name="METHOD_NAME" value="testAOP" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="TestAnno.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -330,14 +299,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestAnno.testUser" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestAnno.testService" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestAOP.testAOP" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAnno.testService" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAnno.testUser" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAOP.testAOP" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAnno.testService" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestAnno.testUser" />
       </list>
     </recent_temporary>
   </component>
@@ -357,11 +328,27 @@
       <option name="presentableId" value="Default" />
       <updated>1519974065159</updated>
       <workItem from="1519974079129" duration="2544000" />
-      <workItem from="1519976965896" duration="3622000" />
+      <workItem from="1519976965896" duration="4413000" />
+      <workItem from="1519991809746" duration="6671000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="TestAOP_testAOP - 2018.03.02 at 21h 22m 18s.xml">
+      <configuration name="TestAOP.testAOP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP_testAOP - 2018.03.02 at 21h 38m 02s.xml">
+      <configuration name="TestAOP.testAOP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP_testAOP - 2018.03.02 at 22h 19m 30s.xml">
+      <configuration name="TestAOP.testAOP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP_testAOP - 2018.03.02 at 22h 28m 02s.xml">
+      <configuration name="TestAOP.testAOP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAOP_testAOP - 2018.03.02 at 22h 33m 37s.xml">
+      <configuration name="TestAOP.testAOP" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TestAnno_testService - 2018.03.02 at 16h 25m 56s.xml">
       <configuration name="TestAnno.testService" configurationId="JUnit" />
     </history-entry>
@@ -376,11 +363,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6166000" />
+    <option name="totallyTimeSpent" value="13628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2728" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -394,7 +380,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -425,6 +411,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/TestAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#244#245#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -438,7 +463,7 @@
         <state relative-caret-position="440">
           <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,39 +486,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/TestAnno.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="352">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#244#245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -520,12 +527,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/annotation/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/aop/TestAOP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/aop/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/aop/MyBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/treee/aop/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="445">
+            <caret line="215" column="57" lean-forward="false" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
+            <folding>
+              <marker date="1520001455732" expanded="true" signature="1845:2244" ph="..." />
+              <marker date="1520001455732" expanded="true" signature="2892:3307" ph="..." />
+              <marker date="1520001455732" expanded="true" signature="3035:3072" ph="..." />
+              <marker date="1520001455732" expanded="true" signature="3108:3288" ph="..." />
+              <marker date="1520001455732" expanded="true" signature="3126:3184" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aspecjAOP.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>LearnSpring02:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LearnSpring02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring MVC-4.3.14.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
