@@ -4,4 +4,51 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--ioc入门-->
     <bean id="user" class="com.treee.ioc.User"></bean>
+
+    <!--使用有参数构造注入属性 -->
+    <bean id="user2" class="com.treee.property.User_property">
+        <!--使用有参数构造注入-->
+        <constructor-arg name="username" value="张三"></constructor-arg>
+    </bean>
+
+    <bean id="user3" class="com.treee.property.User_set">
+        <!--使用set方法注入属性（重点）-->
+        <property name="username" value="李四"/>
+    </bean>
+
+    <!--对象的注入-->
+    <bean id="userDao" class="com.treee.property.UserDao"/>
+    <bean id="userService" class="com.treee.property.UserService">
+        <!--现在注入的是Dao对象，不是字符串，需要用ref属性-->
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="userc" class="com.treee.property.User_c">
+        <property name="names">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+        <property name="list">
+            <list>
+                <value>足球</value>
+                <value>篮球</value>
+                <value>乒乓球</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="username" value="张三"/>
+                <entry key="password" value="123456"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="username">赵六</prop>
+            </props>
+        </property>
+    </bean>
 </beans>
