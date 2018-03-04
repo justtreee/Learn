@@ -14,3 +14,7 @@
 6. [Spring 的 AOP 操作（注解）](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_aop/src/com/treee/aop)
 
 7. [jdbcTemplate 实现 crud 操作](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_jdbcTemplate/src/com/treee/jdbc)
+
+8. [使用Spring配置连接池与注入操作](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_jdbcTemplate/src/com/treee/c3p0)
+
+9. [Spring 的事务管理（xml和注解）](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_tx)
