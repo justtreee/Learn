@@ -1,6 +1,9 @@
 ﻿# Spring 学习笔记
 
 ## 目录
+
+### 一、Spring框架
+
 1. [Spring 的 IOC 入门案例](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring01/src/com/treee/ioc)
 
 2. [Spring 的 bean 管理（xml方式）](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring01/src/com/treee/property)
@@ -18,3 +21,8 @@
 8. [使用Spring配置连接池与注入操作](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_jdbcTemplate/src/com/treee/c3p0)
 
 9. [Spring 的事务管理（xml和注解）](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpring03_tx)
+
+## 二、Spring Boot
+
+1. [SpringBoot配置与属性注入](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpringBoot01)
+
