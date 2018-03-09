@@ -26,3 +26,5 @@
 
 1. [SpringBoot配置与属性注入](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpringBoot01)
 
+2. [基于JPA连接MySQL数据库](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpringBoot02)
+
