@@ -28,3 +28,8 @@
 
 2. [基于JPA连接MySQL数据库](https://github.com/justtreee/Learn/tree/master/Spring/LearnSpringBoot02)
 
+3. [【转】在Spring Boot中使用Spring Security实现权限控制](http://blog.csdn.net/u012702547/article/details/54319508)  
+
+之后的文章，均是我围绕Spring Security添加功能所实现的。记录一下我的学习过程。
+
+4. 
