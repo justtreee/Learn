@@ -30,6 +30,8 @@
 
 3. [【转】在Spring Boot中使用Spring Security实现权限控制](http://blog.csdn.net/u012702547/article/details/54319508)  
 
-之后的文章，均是我围绕Spring Security添加功能所实现的。记录一下我的学习过程。
+> 之后的文章，均是我围绕Spring Security添加功能所实现的。记录一下我的学习过程。
 
-4. 
+4. [基于Spring Security权限控制与使用Ajax调用类](https://github.com/justtreee/Learn/tree/master/Spring/Articles/Article01)
+
+5. [SpringBoot使用JPA实现数据更新update](https://github.com/justtreee/Learn/tree/master/Spring/Articles/Article02)
